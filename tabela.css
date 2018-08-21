@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table, td{
+    border: 2px solid black;
+    
+}
+
+td{
+    height: 15px;
+    width: 100px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(122, 122, 122)
+}
+
+tr:nth-child(2) td:nth-child(3){
+    background-color: black;
+}
+
+tr:nth-child(3) td:nth-child(3){
+    background-color: black;
+}
+
+tr:nth-child(2) td:nth-child(5){
+    background-color: black;
+}
+
+tr:nth-child(3) td:nth-child(5){
+    background-color: black;
+}
+
+tr:nth-child(2) td:nth-child(6){
+    background-color: black;
+}
+
+tr:nth-child(3) td:nth-child(6){
+    background-color: black;
+}
